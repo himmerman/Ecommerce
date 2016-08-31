@@ -1,0 +1,87 @@
+/******fonts******/
+	/*remotely import the Lato Font*/
+	@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+
+	/*locally import Perpetua Normal and Bold*/
+	@font-face
+	{
+	font-family: Perpetua;
+	src: url(PER.TIF);
+	}
+
+	@font-face
+	{
+		font-family: Perpetua Bold;
+		src: url(PERB.TIF);
+	}
+
+
+/* CSS rules */
+#cart {
+	float: right;
+	margin-right: 25px;
+	margin-bottom: -15px;
+
+}
+#cart a{
+	color: #C1A45C;
+	text-decoration: none;
+	font-weight: 300;
+}
+#cart img {
+	width: 25px;
+}
+#cart_products, #cart_totals {
+	width: 100%;
+	border-spacing: 0;
+}
+#cart_products img {
+	display: block;
+	float: left;
+	max-width: 100px;
+	max-height: 100px;
+	margin: 5px;
+}
+.table_head th{
+	text-align: left;
+	padding: 5px;
+	background-color: #78B142;
+}
+
+#cart_products ul li{
+	list-style: none;
+	font-size: 10pt;
+}
+#cart_products tr td{
+	border-bottom: 1px solid #CEC089; 
+	margin: 5px;
+	height: 100px;
+	font-family: Lato;
+	font-weight: 300;
+}
+#cart_products input{
+	width: 30px;
+}
+#cart_totals{
+	margin: 50px 0 30px;
+}
+#cart_totals td{
+	height: 25px;
+	border-bottom: 1px solid #CEC089;
+}
+.orange {
+	color: #F6891F;
+}
+
+h2, h1 {
+	font-family: Perpetua;
+	font-weight: 300;
+	color: #C4842A;
+}
+.red {
+	color: red;
+}
+p {
+	font-family: Lato;
+	font-weight: 300;
+}
